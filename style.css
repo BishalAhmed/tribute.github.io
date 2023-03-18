@@ -60,14 +60,10 @@ ul li{
     transition: 0.15s;
     box-sizing: border-box;
     
-    
-    
-   
 }
 ul li:hover{
     border-bottom: 3px solid #4e77e0;
    
-
 }
 
 ul li a{
@@ -88,18 +84,15 @@ ul li a{
     border-radius: 6px;
     
     
-    
 }
 #advice:hover{
     border: 2px solid #000000;
     padding: 8px;
   
-    
 }
 nav{
     display: flex;
 }
-
 
 @media screen and (max-width:990px){
     
@@ -111,14 +104,11 @@ nav{
     header {
         display: block;
         
-        
     }
     .logo{
         max-width: 225px;
        margin: 25px 20px 0 40px;
       
-       
-       
     }
     
     ul{
@@ -129,7 +119,6 @@ nav{
         width: 0px;
         text-align: center;
         width: 250px;
-        
         background: rgba(255, 255, 255, 0.24);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -143,9 +132,6 @@ nav{
 
     }
     #cheak:checked ~ ul{
-        display: block;
-
-        
       
     }
     ul li{
@@ -153,20 +139,14 @@ nav{
         transition: 0.1s ease-in-out;
         padding-top: 0px 0px;
         
-        
     }
     ul li:hover{
         border-bottom: none;
         background-color: #dddddd77;
         
     }
-    ul li a{
-       
-    }
     #advice{
-        
        display: none;
-        
         
     }
     
