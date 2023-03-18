@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body,html{
+    width: 100%;
+}
+body{
+    background-color: #4e77e0;
+}
+@font-face {
+    font-family: google;
+    src: url(product-sans-2/Product\ Sans\ Regular.ttf);
+}
+/* header header header */
+
+.fa-bars{
+    position: absolute;
+    font-size: 30px;
+    right: 30px;
+    top: 29px;
+    
+}
+#cheakk{
+    display: none;
+
+}
+#cheak{
+    display: none;
+    
+}
+
+header{
+    height: 80px;
+    background-color: #ECF2FF;
+   justify-content: space-between;
+   display: flex;
+  
+  
+}
+.logo{
+    width: 230px;
+   margin: 0 20px 0 40px;
+  
+   
+   
+}
+ul{
+    display: flex;
+
+
+}
+ul li{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px 18px 18px 18px;
+    list-style-type: none;
+    transition: 0.15s;
+    box-sizing: border-box;
+    
+    
+    
+   
+}
+ul li:hover{
+    border-bottom: 3px solid #4e77e0;
+   
+
+}
+
+ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-family: google;
+}
+#advice{
+    text-transform: capitalize;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+   font-family: google;
+    background-color: #4e77e0;
+    color: #fff;
+    border-radius: 6px;
+    
+    
+    
+}
+#advice:hover{
+    border: 2px solid #000000;
+    padding: 8px;
+  
+    
+}
+nav{
+    display: flex;
+}
+
+
+@media screen and (max-width:990px){
+    
+    #cheakk{
+        display: block;
+        z-index: 50;
+    }
+    
+    header {
+        display: block;
+        
+        
+    }
+    .logo{
+        max-width: 225px;
+       margin: 25px 20px 0 40px;
+      
+       
+       
+    }
+    
+    ul{
+     
+        margin-top: 20px;
+        position: absolute;
+        right: 10px;
+        width: 0px;
+        text-align: center;
+        width: 250px;
+        
+        background: rgba(255, 255, 255, 0.24);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+       
+        display: none;
+        transition: 1.3s ease-in-out;
+        z-index: 1;
+
+    }
+    #cheak:checked ~ ul{
+        display: block;
+
+        
+      
+    }
+    ul li{
+        border-radius: 8px;
+        transition: 0.1s ease-in-out;
+        padding-top: 0px 0px;
+        
+        
+    }
+    ul li:hover{
+        border-bottom: none;
+        background-color: #dddddd77;
+        
+    }
+    ul li a{
+       
+    }
+    #advice{
+        
+       display: none;
+        
+        
+    }
+    
+}
